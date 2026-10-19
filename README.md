@@ -1,5 +1,7 @@
 # RightKeyAppSwitch
 
+**🌐 Website:** [turhe123.github.io/right-key-app-switch](https://turhe123.github.io/right-key-app-switch/)
+
 Hold the right Command key and tap a letter to jump straight to an app or cycle its windows.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -26,7 +28,13 @@ RightKeyAppSwitch is a free, open-source, 100% native, backend-free alternative 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="RightKeyAppSwitch menu bar menu" width="720"></p>
+
+<p align="center"><em>The menu bar menu gives quick access to Grant Access, Pause Switching, Show Bindings (⌘/), Settings and Support.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="RightKeyAppSwitch Settings window" width="560"></p>
+
+<p align="center"><em>Settings lets you toggle auto-assignment and launch behaviour, check permissions, add key overrides and see the current right ⌘ bindings such as F → Finder and X → Xcode.</em></p>
 
 ## Install
 

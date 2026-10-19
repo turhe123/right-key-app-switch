@@ -1,0 +1,4 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar menu gives quick access to Grant Access, Pause Switching, Show Bindings (⌘/), Settings and Support.","alt":"RightKeyAppSwitch menu bar menu"},
+  {"file":"02-settings.png","caption":"Settings lets you toggle auto-assignment and launch behaviour, check permissions, add key overrides and see the current right ⌘ bindings such as F → Finder and X → Xcode.","alt":"RightKeyAppSwitch Settings window"}
+]

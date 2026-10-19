@@ -1,0 +1,60 @@
+{
+  "seo_title": "Right Command app switcher for macOS",
+  "seo_description": "Free, open-source menu bar utility for macOS. Hold the right Command key and tap a letter to jump to any app or cycle its windows. No account, no network.",
+  "hero_title_line1": "Right Command,",
+  "hero_title_accent": "any app, instantly.",
+  "hero_sub": "Hold the right Command key and tap a letter to jump straight to an app, or tap again to cycle its windows. Letters are assigned automatically from app names, and you can override any of them.",
+  "features_title": "Switch apps without looking.",
+  "features_sub": "A small menu bar app that turns the right Command key into a keyboard launcher for the apps you already use.",
+  "features": [
+    {
+      "icon": "keyboard",
+      "title": "Right Command plus a key",
+      "desc": "Press right Command with a letter or digit (a to z, 0 to 9) to activate the app bound to it. A bare right Command tap and all other shortcuts pass through untouched."
+    },
+    {
+      "icon": "window",
+      "title": "Cycle through app windows",
+      "desc": "Press the key again while the app is frontmost to raise its back-most window. Repeated presses walk through every window, and minimized ones are restored."
+    },
+    {
+      "icon": "sliders",
+      "title": "Stable automatic assignment",
+      "desc": "Keys come from the first letter of each app name, then the second, then the next free letter. Bindings stay put as apps launch and quit, and you can override any of them in Settings."
+    },
+    {
+      "icon": "eye",
+      "title": "Bindings overlay and hide",
+      "desc": "Right Command plus slash shows a panel of app icons and their keys until you release. Add Option to a letter to hide that app instead."
+    },
+    {
+      "icon": "bolt",
+      "title": "Launch apps that are closed",
+      "desc": "Optionally open the bound app when it is not running, including apps you pick manually with Other. You can also include menu bar apps and launch at login."
+    },
+    {
+      "icon": "shield",
+      "title": "Local and careful by design",
+      "desc": "Events are ignored while secure input is active, such as in password fields. There is no server, no account and no network code."
+    }
+  ],
+  "permissions_step": "Grant Input Monitoring and Accessibility to RightKeyAppSwitch in System Settings > Privacy & Security, using Grant Access in the menu or Settings.",
+  "faq": [
+    {
+      "q": "Is RightKeyAppSwitch really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no ads, accounts or paid tiers. If it saves you time, there is an optional Support button that links to Ko-fi."
+    },
+    {
+      "q": "Which permissions does it need, and why?",
+      "a": "Input Monitoring is required to detect the right Command key and your letter presses. Accessibility lets the app swallow the handled key press and raise an app's windows to cycle them. It does not use Screen Recording, Microphone, Camera or any network access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. Your key overrides and settings are saved in UserDefaults, and nothing is sent anywhere because the app contains no network code."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it from source with Xcode."
+    }
+  ]
+}
